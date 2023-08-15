@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Dynamic Download Path",
+  "version": "1.0",
+  "description": "Set the download path based on file type",
+  "permissions": ["downloads"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
